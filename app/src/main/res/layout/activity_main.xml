@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sevenheaven.zxingdemo.MainActivity">
+
+    <ImageView
+        android:id="@+id/qrcode1"
+        android:layout_width="500px"
+        android:layout_height="500px"/>
+    <ImageView
+        android:layout_toRightOf="@+id/qrcode1"
+        android:id="@+id/qrcode2"
+        android:layout_width="500px"
+        android:layout_height="500px"/>
+
+    <ImageView
+        android:id="@+id/qrcode3"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_below="@+id/qrcode1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:id="@+id/qrcode4"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_below="@+id/qrcode2"
+        android:layout_toRightOf="@+id/qrcode1"
+        android:layout_toEndOf="@+id/qrcode1"/>
+
+    <ImageView
+        android:id="@+id/qrcode5"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_below="@+id/qrcode3"
+        android:layout_toLeftOf="@+id/qrcode4"
+        android:layout_toStartOf="@+id/qrcode4"/>
+
+    <ImageView
+        android:id="@+id/qrcode6"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_toRightOf="@+id/qrcode5"
+        android:layout_toEndOf="@+id/qrcode5"
+        android:layout_below="@+id/qrcode3"/>
+</RelativeLayout>
