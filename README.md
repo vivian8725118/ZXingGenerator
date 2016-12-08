@@ -1,3 +1,4 @@
+[![Join the chat at https://gitter.im/vivian8725118/ZXingGenerator](https://badges.gitter.im/vivian8725118/ZXingGenerator.svg)](https://gitter.im/vivian8725118/ZXingGenerator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 # ZXingGenerator
 花式二维码生成，提供了6种样式
 #Usage
