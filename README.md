@@ -1,7 +1,5 @@
 [![Join the chat at https://gitter.im/vivian8725118/ZXingGenerator](https://badges.gitter.im/vivian8725118/ZXingGenerator.svg)](https://gitter.im/vivian8725118/ZXingGenerator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 # ZXingGenerator
-
-[![Join the chat at https://gitter.im/vivian8725118/ZXingGenerator](https://badges.gitter.im/vivian8725118/ZXingGenerator.svg)](https://gitter.im/vivian8725118/ZXingGenerator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 花式二维码生成，提供了6种样式
 #Usage
 QRCode.java文件中提供了6种生成二维码的样式，可直接按照如下方式使用。
