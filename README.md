@@ -15,5 +15,5 @@ qrcode6.setImageBitmap(QRCode.createQRCodeWithLogo6("http://www.jianshu.com/user
 ```
 
 
-## ScreenShot
+# ScreenShot
 <img src="https://github.com/vivian8725118/ZXingDemo/blob/master/art/S61128-17080029.jpg" width="50%" height="50%"/>
